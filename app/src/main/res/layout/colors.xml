@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <AbsoluteLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp">
+
+        <View
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_x="0dp"
+            android:layout_y="0dp"
+            android:background="#7FFF0000"/>
+
+        <View
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_x="10dp"
+            android:layout_y="10dp"
+            android:background="#7F00FF00"/>
+
+        <View
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_x="20dp"
+            android:layout_y="20dp"
+            android:background="#7F0000FF"/>
+
+    </AbsoluteLayout>
+
+    <AbsoluteLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp">
+
+        <View
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_x="0dp"
+            android:layout_y="0dp"
+            android:background="#7FFF0000"/>
+
+        <View
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_x="10dp"
+            android:layout_y="10dp"
+            android:background="#7F0000FF"/>
+
+        <View
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_x="20dp"
+            android:layout_y="20dp"
+            android:background="#7F00FF00"/>
+
+    </AbsoluteLayout>
+
+</LinearLayout>
