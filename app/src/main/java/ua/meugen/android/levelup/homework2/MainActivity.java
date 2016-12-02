@@ -1,12 +1,11 @@
 package ua.meugen.android.levelup.homework2;
 
 import android.graphics.Color;
+import android.os.Bundle;
 import android.os.Handler;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
-import android.view.MenuItem;
 import android.view.View;
 import android.widget.CheckedTextView;
 
@@ -74,7 +73,8 @@ public class MainActivity extends AppCompatActivity {
                     .addToBackStack(tag)
                     .commit();
         } else {
-            manager.popBackStack(tag, FragmentManager.POP_BACK_STACK_INCLUSIVE);
+            manager.popBackStack(tag, FragmentManager
+                    .POP_BACK_STACK_INCLUSIVE);
         }
         updateCheckedTextViews();
     }
